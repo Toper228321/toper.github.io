@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: #333;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main h1 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 1em;
+}
+
+.video-card {
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-card h3 {
+    padding: 0.5em;
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: #fff;
+}
+
+nav ul li a.active {
+    color: #ff4500; /* Оранжевый цвет для активной страницы */
+    font-weight: bold; /* Жирный текст */
+    border-bottom: 2px solid #ff4500; /* Подчёркивание */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7em;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e03e00;
+}
