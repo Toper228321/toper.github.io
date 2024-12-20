@@ -1,5 +1,5 @@
-const API_KEY = 'AIzaSyCZzjxP_6882TA7csMrvkGkzIxcgkErw_U';
-const CHANNEL_ID = 'UC58OSvoMyNReVZQvqgH6GsA';
+const API_KEY = 'API';
+const CHANNEL_ID = 'ID';
 
 
 /**
